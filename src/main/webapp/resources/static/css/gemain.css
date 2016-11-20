@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@import url("../fonts/gefonts.css") ;
+
+body {
+	font-family: 'Arimo';
+	}
+	
+.mainHeaderBox {
+	position:absolute;
+	z-index:10;
+	left:0px;
+	right:0px;
+	}
+.mainHeaderBoxInner {
+	position:absolute;
+	z-index:10;
+	left:0px;
+	right:0px;
+	}		
+
+
+.loginBox {
+	background-color:#353535;
+	padding-bottom:3px;
+	padding-top:3px;
+	}
+
+.homeSoIcon {
+	color:#FFFFFF;
+	font-size:14px;
+	}
+.homeSoIconBox {
+	margin-right:10px;
+	width:auto;
+	float:left;
+	}
+.homeSoIconBox2 {
+	margin-right: 10px;
+	width: auto;
+	float: right;
+	}	
+.loginTextLink {
+	color:#7dc141;
+	text-transform:uppercase;
+	font-size:11px;
+	font-weight:300;
+	text-align:right;
+	line-height:22px;
+	}
+.loginTextLink a {
+	color:#7dc141;
+	text-transform:uppercase;
+	font-size:11px;
+	font-weight:300;
+	text-align:right;
+	line-height:22px;
+	text-decoration:none;
+	}
+.loginTextLink a:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+.siteLogoBox {
+	background-color:#7dc141;
+	}
+.indextopContactsimText {
+	font-size: 12px;
+	font-weight: 300;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	}
+.indextopContactBigText {
+	font-size:40px;
+	font-weight:700;
+	color:#FFFFFF;
+	padding:0px;
+	margin:0px;
+	}
+.indextopContactBigText2 {
+	font-size:10px;
+	font-weight:300;
+	color:#FFFFFF;
+	padding:0px;
+	margin:0px;
+	}	
+.homeContactInfoBox {
+	margin-top:10px;
+	}
+.mainMenuBox {
+	background-color: transparent !important;
+	color: #000000 !important;
+	text-transform: uppercase !important;
+	font-size: 12px !important;
+	border-top: 1px solid #353535;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-radius:0px;
+	margin:0px;
+	}
+.mainMenuBoxInner {
+	background-color: transparent !important;
+	color: #000000 !important;
+	text-transform: uppercase !important;
+	font-size: 12px !important;
+	border: none;
+	border-radius: 0px;
+	margin: 0px;
+	}	
+.mainMenuBox a {
+	background-color: transparent !important;
+	color: #000000 !important;
+	font-weight:400 !important;
+	}	
+.mainMenuBox a:hover {
+	background-color: transparent !important;
+	color: #FFFFFF !important;
+	}
+.menuBarNopad {
+	padding:0px;
+	margin:0px;
+	}
+.menuBarNopadInner {
+	padding: 0px;
+	margin-top: 23px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	}	
+.homeSlidrPaddingZero {
+	padding:0px;
+	margin:0px;
+	position:relative;
+	top:0px;
+	z-index:9;
+	}
+.catImgPad {
+	padding-right: 2px;
+	padding: 0px;
+	padding-left: 2px;
+	}
+.catImgPadIn {
+	margin-right: 2px;
+	padding: 0px;
+	background-color: #E9E9E9;
+	margin-left: 2px;
+	}	
+.catImg {
+	padding:0px;
+	margin:0px;
+	border:none;
+	}		
+.catTitel {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-left: 10px;
+	margin-top: 10px;
+	font-weight: 500;
+	}
+.catText {
+	font-size:11px;
+	color:#000000;
+	padding-left:10px;
+	margin-top:10px;
+	font-weight:500;
+	}
+.catLink {
+	font-size:11px;
+	color:#7dc141;
+	padding-left:10px;
+	margin-top:10px;
+	font-weight:500;
+	text-transform:uppercase;
+	}															
+.catLink a {
+	font-size:11px;
+	color:#7dc141;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+.catLink a:hover {
+	font-size:11px;
+	color:#000000;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+.catArroeBox {
+	margin-left:0px;
+	padding:0px;
+	margin-right:2px;
+	margin-top:28px;
+	}
+.catBoxOuter {
+	/*position:relative;
+	top:-200px;*/
+	z-index:100;
+	/*bottom:-200px;*/
+	margin-top:-200px;
+	}
+.homeTextArea {
+	font-size: 15px;
+	color: #353535;
+	font-weight: 300px;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	}	
+.ad1 {
+	padding:5px;
+	margin:0px;
+	}				
+.ad2 {
+	padding:5px;
+	margin:0px;
+	}	
+.footerBox {
+	background-color: #353535;
+
+	}
+.footerContact {
+	font-size:13px;
+	color:#777777;
+	font-weight:300;
+	text-align:right;
+	}
+.footerTextBox {
+	font-size:12px;
+	color:#777777;
+	font-weight:300;
+	text-align:right;	
+	}	
+.footerNaviBox {
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:300;
+	text-align:left;
+	}	
+.footerNaviBox a {
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:300;
+	text-align:left;
+	text-decoration:none;
+	}
+.footerNaviBox a:hover {
+	font-size:12px;
+	color:#7dc141;
+	font-weight:300;
+	text-align:left;
+	text-decoration:none;
+	}	
+.footerOutBox2 {
+	background-color:#181818;
+	}
+.footerNaviBox2 {
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:300;
+	text-align:left;
+	line-height:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	}	
+.footerNaviBox2 a {
+	font-size:12px;
+	color:#7dc141;
+	font-weight:300;
+	text-align:left;
+	text-decoration:none;
+	}
+.footerNaviBox2 a:hover {
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:300;
+	text-align:left;
+	text-decoration:none;
+	}
+.innerTitelAreaBox {
+	background-color: #b5e987;
+	background-image: url(../images/inner-bg.png);
+	padding:0px;
+	margin:0px;
+	height:auto;
+	}
+.innerPagesMainTitel {
+	font-size: 22px;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}	
+.breadcrumbBox {
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+	}
+.innrGridBox {
+	margin-top:20px;
+	margin-bottom:20px;
+	}								
+.innrGridBox2 {
+	margin-top:0px;
+	margin-bottom:20px;
+	padding:0px;
+	}
+.innerBoxTitel {
+	font-size: 25px;
+	border-bottom: 1px solid #ADADAD;
+	padding-bottom: 5px;
+	margin-bottom: 25px;
+	}
+.innerViewBox h2 {
+	font-size: 17px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	padding: 0px;
+	}
+.innerViewBox h3 {
+	font-size:14px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	padding: 0px;
+	}			
