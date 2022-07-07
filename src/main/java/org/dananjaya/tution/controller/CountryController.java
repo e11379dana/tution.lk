@@ -24,6 +24,7 @@ public class CountryController {
 		List<Country> listOfCountries = countryService.getAllCountries();
 		model.addAttribute("country", new Country());
 		model.addAttribute("listOfCountries", listOfCountries);
+		// return 
 		return "countryDetails";
 	}
 
