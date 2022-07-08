@@ -18,7 +18,7 @@ public class CountryController {
 	@Autowired
 	CountryService countryService;
 
-	@RequestMapping(value = "/getAllCountries", method = RequestMethod.GET, headers = "Accept=application/json")
+	@RequestMapping(value = "/searchConsultants", method = RequestMethod.GET, headers = "Accept=application/json")
 	public String getCountries(Model model) {
 
 		List<Country> listOfCountries = countryService.getAllCountries();
@@ -41,7 +41,7 @@ public class CountryController {
 			countryService.updateCountry(country);
 		}
 
-		return "redirect:/getAllCountries";
+		return "redirect:/searchConsultants";
 	}
 
 	@RequestMapping(value = "/updateCountry/{id}", method = RequestMethod.GET, headers = "Accept=application/json")
@@ -54,7 +54,7 @@ public class CountryController {
 	@RequestMapping(value = "/deleteCountry/{id}", method = RequestMethod.GET, headers = "Accept=application/json")
 	public String deleteCountry(@PathVariable("id") int id) {
 		countryService.deleteCountry(id);
-		return "redirect:/getAllCountries";
+		return "redirect:/searchConsultants";
 
 	}
 }
